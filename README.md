@@ -10,8 +10,3 @@
  5. You may use your own styling or any predefined package.
  6. User's **name**,**branch**,**account type**,**product type**,**account status** ,**account number** & **amount** is **MANDATORY** to display.
  7. After done, please commit your changes into respective directory follow by your name.
-
- > Summary
-| Eli  | Aminah |
-| ------------- | ------------- |
-|❔❔  | ❔❔  |
