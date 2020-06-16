@@ -1,0 +1,35 @@
+{
+	"bank": "CIMBMY",
+	"customer": {
+		"name": "Abdul Samad",
+		"NRIC": "880702148823",
+		"Branch": "Menara Bumiputra Commerce"
+	},
+	"accountList": [{
+		"accType": "Current Account",
+		"accTypeDesc": null,
+		"productType": "CA FLEXI",
+		"accNumber": "8005073726",
+		"accStatus": "Active",
+		"amount": -394447.35,
+		"currencyCode": "MYR"
+	}, {
+
+		"accType": "Current Account",
+		"accTypeDesc": null,
+		"productType": "BASIC CA WITHOUT FEE",
+		"accNumber": "8006826243",
+		"accStatus": "Active",
+		"amount": 39220.76,
+		"currencyCode": "MYR"
+	}, {
+
+		"accType": "Savings Account",
+		"accTypeDesc": null,
+		"productType": "Air Asia Savers",
+		"accNumber": "8006890715",
+		"accStatus": "Dormant",
+		"amount": 380.21,
+		"currencyCode": "MYR"
+	}]
+}
