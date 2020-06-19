@@ -1,0 +1,14 @@
+/*private css for customerComponent*/
+.spacer{
+    flex: 1;
+    background-color: rgb(208,29,37);
+    padding-left: 20px;
+}
+
+p{
+    color: rgb(254,252,252);
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+    margin: 5px 0;
+}

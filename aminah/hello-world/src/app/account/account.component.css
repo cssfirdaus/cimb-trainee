@@ -1,0 +1,14 @@
+/*private css for AccountComponent*/
+
+.content{
+    flex: 1;
+    display: flex;
+    background-color: rgb(244,243,243);
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+}
+
+li{
+    margin: 20px 0;
+    line-height: 25px;
+  }
+

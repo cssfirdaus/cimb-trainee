@@ -1,0 +1,13 @@
+<!--to show AccountDetails-->
+
+<div class="content">
+<ul style="list-style-type:none;">
+    <li *ngFor='let acc of accountDetails'>
+        {{acc.acctype}} <br>
+        <u> {{acc.productType}} </u><br>
+        {{acc.accStatus}} <br>
+        {{acc.accNumber}}  <br>
+        'MYR' {{acc.amount}} <br>
+    </li>
+</ul>
+</div>
