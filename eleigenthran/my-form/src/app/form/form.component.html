@@ -1,0 +1,32 @@
+
+<div class="formText">
+    Form Status: {{ profileForm.status }}
+</div>
+<br><br>
+<form [formGroup]="profileForm">
+  
+    <div class="formText">
+      First Name: <br>
+      <input type="text" ngModel maxlength="30" placeholder="Your Name..." formControlName="firstName" required>
+    </div>
+  
+    <div class="formText">
+      Last Name: <br> 
+      <input type="text" ngModel maxlength="30" placeholder="Your Last Name..." formControlName="lastName" required>
+    </div>
+
+    <div class="formText">
+        Account No: <br>
+        <input type="number" ngModel maxlength="20" placeholder="Type Your Account number..." formControlName="accno" required>
+    </div>
+
+    <div class="formText">
+        Product Code: <br>
+        <input type="text" pattern="^[A-Za-z0-9]+$" ngModel maxlength="20" placeholder="Type the Product Code..." formControlName="productcode" required>
+    </div>
+
+    <div class="formText">
+        Phone No: <br>
+        <input type="number" ngModel maxlength="20" placeholder="Your Phone number..." formControlName="phoneno" required>
+    </div>
+</form>

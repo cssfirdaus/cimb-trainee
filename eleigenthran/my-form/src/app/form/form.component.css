@@ -1,0 +1,15 @@
+.formText{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-weight: bold; 
+    font-size: 6vw;
+    color: #003300;
+}
+input{
+    width: 80%;
+    padding: 3vw;
+    margin: 2vw 0;
+    box-sizing: border-box;
+    font-size: 4vw;
+    border: 0.5vw solid black;
+    border-radius: 2vw;
+}
