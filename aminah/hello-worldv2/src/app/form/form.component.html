@@ -1,0 +1,34 @@
+<div >
+    Form Status: {{ detailsForm.status }}
+</div>
+
+<br>
+
+<form [formGroup]="detailsForm">
+
+    <label>
+        First Name:
+        <input type="text" formControlName='firstName' required>
+    </label>
+
+    <label>
+        Last Name:
+        <input type="text" formControlName='lastName' required>
+    </label>
+
+    <label> 
+        Phone No:
+        <input type="text" formControlName='phoneNo' required>
+    </label>
+
+    <label>
+        Account No:
+        <input type="text" formControlName='accountNo' required>
+    </label>
+
+    <label>
+        Product Code:
+        <input type="text" formControlName='productCode' required>
+    </label>
+
+</form>
